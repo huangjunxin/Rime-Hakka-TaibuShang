@@ -51,7 +51,7 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - derive/[123456]//           # 忽略聲調
+    - derive/[0123456]//           # 忽略聲調
     # - xform/1//                   # 陰平
     # - xform/2/y/                  # 陽平
     # - xform/3/w/                  # 上聲

@@ -3,21 +3,21 @@
 
 ---
 name: tai4bu1shang1
-version: "0.2.0"
+version: "0.2.2"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 
 # 百侯話基礎詞彙	
-我	ngai2
-汝	hen2
-你	ngi1
-佢	gi2
-吾	nga1
-若	ngid6
-渠	gid6
+我	ngai2	80%
+汝	hen2	80%
+你	ngi1	80%
+佢	gi2	80%
+吾	nga1	80%
+若	ngid6	80%
+渠	gid6	80%
 我兜人	ngai2 deu1 ngin2
-俺	en1
+俺	en1	80%
 俺兜人	en1 deu1 ngin2
 汝兜人	hen2 deu1 ngin2
 佢兜人	gi2 deu1 ngin2
@@ -55,22 +55,26 @@ use_preset_vocabulary: true
 大麻	tai4 ma2
 楓朗	bung1 long4
 雙溪	sung1 ke1
+麼	mag5
 麼個	mag5 ge4
+若	ngiong4
 若講	ngiong4 gong3
 若般	ngiong4 ban1
 若盍的	ngiong4 had6 der0
 若的	ngia1 der0
 若忦煞	ngiong4 gad5 sad5
 的	der0
+个	e4	80%
+個	e4
 做麼個	zo4 mag5 ge4
 哪時	ne4 shi2
 哪久時	ne4 giu3 shi2
 哪的	ne4 der0
-係	he4
+係	he4	80%
 係哦	he4 o1
-毋係	m2 he4
+毋係	m2 he4	80%
 毋係哦	m2 he4 o1
-毋知	m2 di1
+毋知	m2 di1	80%
 吂知	mang2 di1
 吂曾	mang2 cien2
 知矣	di1 lie4
@@ -83,6 +87,9 @@ use_preset_vocabulary: true
 有無	rhiu1 mo2
 聽爆	ten4 bau4
 矣	lie4
+啊	a4	40%
+啦	la3	40%
+啦	lia3	40%
 食朝	shid6 zhau1
 食晝	shid6 zhiu4
 食夜	shid6 rha4
@@ -95,7 +102,8 @@ use_preset_vocabulary: true
 今裏	gim1 li3
 今遐	gim1 gai2
 今下	gim1 ha4
-恁	an2
+忒	ted5	80%
+恁	an2	80%
 恁暗	an2 am4
 恁遽	an2 giag5
 極遽	gid6 giag5
@@ -107,15 +115,19 @@ use_preset_vocabulary: true
 下擺	ha4 bai3
 正來	zhang4 loi2
 吂得時	mang2 ded5 shi2
-在	cii1
+在	cii1	50%
 在哪的	cii1 ne4 der0
 裏的	li3 der0
+遐	gai2	50%
+遐個	gai2 ge4	80%
 遐的	gai2 der0
+箇	ge4
 箇的	ge4 der0
 裏邊	li3 pen3
 堚邊	gun2 pen3
 箇邊	ge4 pen3
 次裏	cii4 li3
+次遐	cii4 cai2
 裏背	di1 boi4
 外背	nguai4 boi4
 上背	shong1 boi4
@@ -167,6 +179,7 @@ use_preset_vocabulary: true
 斟嘴	ziam1 zui3
 遒	ciu1
 撿遒	giam3 ciu1
+腆 taem1
 腆忘	taem1 piong4
 掟手	ten4 shiu3
 供雞	giung1 ge1
@@ -196,7 +209,65 @@ use_preset_vocabulary: true
 悂	be3
 滑	vied6
 □佬	zi1 lo3
-	
+
+# 八股文特殊字
+爲	vui2
+爲	vui4
+為	vui2
+為	vui4
+僞	ngui3
+偽	ngui3
+嬀	gui1
+媯	gui1
+潙	gui1
+溈	gui1
+兇	xiung1
+凶	xiung1
+啓	ki3
+啟	ki3
+棱	lin2
+稜	lin2
+污	vu1
+汙	vu1
+泄	ri4
+泄	sied5
+洩	ri4
+洩	sied5
+涌	rung3
+湧	rung3
+牀	cong2
+床	cong2
+着	zhog5
+着	chog6
+著	zhog5
+著	chog6
+著	zhu4
+竈	zo4
+灶	zo4
+衆	zhung4
+眾	zhung4
+裏	li3	80%
+裡	li3
+踊	rhung3
+踴	rhung3
+麪	mien4
+麵	mien4
+羣	kiun2
+群	kiun2
+峯	fung1
+峰	fung1
+喫	ke4
+喫	kied5
+吃	ke4
+吃	kied5
+黴	mi2
+霉	mi2
+攷	kau3
+考	kau3
+覈	hed6
+核	fud6
+核	hed6
+
 # 百侯話通語單字	
 鶇	dung1
 東	dung1
@@ -465,6 +536,7 @@ use_preset_vocabulary: true
 降	hong2
 降	gong4
 邦	bang1
+龐	pong2
 講	gong3
 港	gong3
 項	hong4
@@ -2617,6 +2689,7 @@ use_preset_vocabulary: true
 將	ziong1
 將	ziong1
 漿	ziong1
+醬	ziong4
 搶	ciong3
 搶	ciong3
 槍	ciong1
@@ -2915,6 +2988,7 @@ use_preset_vocabulary: true
 政	zhin4
 聖	shin4
 勁	gin4
+勁	kiang4 50%
 摒	bin3
 聘	pin3
 跡	ziag5
