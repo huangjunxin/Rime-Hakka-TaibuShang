@@ -4,7 +4,7 @@
 schema:
   schema_id: tai4bu1shang1
   name: 大埔聲
-  version: "0.2.1"
+  version: "0.2.2"
   author:
     - 以成 <648130056@qq.com>
   description: |
@@ -62,8 +62,12 @@ speller:
     - xform/4/q/                  # 去聲
     - xform/5/x/                  # 陰入
     - xform/6/w/                  # 陽入
-    - xform/^hi/xi/               # 顎化容錯 xi -> hi
-    - derive/^xi/hi/              # 顎化容錯 xi -> hi
+    - xform/^hi/xi/               # 顎化兼容 xi -> hi
+    - derive/^xi/hi/              # 顎化兼容 xi -> hi
+    - derive/aen$/ien/            # 韻母兼容 ien -> aen
+    - derive/aem$/iam/            # 韻母兼容 iam -> aem
+    - derive/aed$/ied/            # 韻母兼容 ied -> aed
+    - derive/aeb$/iab/            # 韻母兼容 iab -> aeb
     - derive/b$/p/                # 入聲容錯 p -> b
     - derive/bx$/px/              # 入聲容錯 p5 -> b5
     - derive/bw$/pw/              # 入聲容錯 p6 -> b6
