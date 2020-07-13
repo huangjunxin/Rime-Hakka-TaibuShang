@@ -4,11 +4,15 @@
 schema:
   schema_id: tai4bu1shang1
   name: 大埔聲
-  version: "0.2.0"
+  version: "0.2.1"
   author:
     - 以成 <648130056@qq.com>
   description: |
-    採用臺灣客家語拼音方案(新增x聲母、ae韻腹、er韻母以適配百侯話，兼容湖寮話、台灣大埔腔)
+    大埔客家語拼音輸入方案
+    採用臺灣客家語拼音方案
+    (新增ae韻腹、er韻母以適配百侯話，顎化兼容將xi轉為hi)
+    可輸入聲調 陰平陽入w 陽平y 上聲陰入x 去聲q
+    兼容湖寮話、台灣大埔腔
   dependencies:
     - luna_pinyin
 
@@ -51,17 +55,24 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - derive/[0123456]//           # 忽略聲調
-    # - xform/1//                   # 陰平
-    # - xform/2/y/                  # 陽平
-    # - xform/3/w/                  # 上聲
-    # - xform/4/q/                  # 去聲
-    # - xform/5//                   # 陰入
-    # - xform/6/x/                  # 陽入
-    - derive/b$/p/                # 入聲容錯
-    - derive/d$/t/                # 入聲容錯
-    - derive/g$/k/                # 入聲容錯
-    - derive/^rh/r/               # 聲母容錯
+    - derive/[0123456]//          # 忽略聲調
+    - xform/1/w/                  # 陰平
+    - xform/2/y/                  # 陽平
+    - xform/3/x/                  # 上聲
+    - xform/4/q/                  # 去聲
+    - xform/5/x/                  # 陰入
+    - xform/6/w/                  # 陽入
+    - xform/^hi/xi/               # 顎化容錯 xi -> hi
+    - derive/b$/p/                # 入聲容錯 p -> b
+    - derive/bx$/px/              # 入聲容錯 p5 -> b5
+    - derive/bw$/pw/              # 入聲容錯 p6 -> b6
+    - derive/d$/t/                # 入聲容錯 t -> d
+    - derive/dx$/tx/              # 入聲容錯 t5 -> d5
+    - derive/dw$/tw/              # 入聲容錯 t6 -> d6
+    - derive/g$/k/                # 入聲容錯 k -> g
+    - derive/gx$/kx/              # 入聲容錯 k5 -> g5
+    - derive/gw$/kw/              # 入聲容錯 k6 -> g6
+    - derive/^rh/r/               # 聲母容錯 r -> rh
     - abbrev/^(ng).+$/$1/         # 聲母簡拼
     - abbrev/^([zcs]h).+$/$1/     # 聲母簡拼
     - abbrev/^(a-z).+$/$1/        # 簡拼

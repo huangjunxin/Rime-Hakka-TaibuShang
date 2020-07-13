@@ -45,7 +45,7 @@ use_preset_vocabulary: true
 侯北	heu2 bed5
 百侯拼音	bag5 heu2 pin1 rhim1
 大埔	tai4 bu1
-大埔縣	tai4 bu1 xien3
+大埔縣	tai4 bu1 hien3
 客家話	kag5 ga1 fa4
 客語	kag5 ngi1
 客家語	kag5 ga1 ngi1
@@ -221,8 +221,8 @@ use_preset_vocabulary: true
 媯	gui1
 潙	gui1
 溈	gui1
-兇	xiung1
-凶	xiung1
+兇	hiung1
+凶	hiung1
 啓	ki3
 啟	ki3
 棱	lin2
@@ -333,8 +333,8 @@ use_preset_vocabulary: true
 鴻	fung2
 翁	vung1
 蓊	vung1
-雄	xiung2
-熊	xiung2
+雄	hiung2
+熊	hiung2
 熊	rhung2
 融	rhung2
 楓	fung1
@@ -475,7 +475,7 @@ use_preset_vocabulary: true
 恭	giung1
 供	giung4
 供	giung4
-凶	xiung1
+凶	hiung1
 洶	hiung1
 匈	hiung1
 雍	rhung1
@@ -634,7 +634,7 @@ use_preset_vocabulary: true
 宜	ni2
 危	ngui2
 危	vui2
-戲	xi3
+戲	hi3
 椅	rhi3
 委	rhe4
 委	rhe4
@@ -836,7 +836,7 @@ use_preset_vocabulary: true
 杞	gi3
 起	ki3
 擬	ngi2
-喜	xi3
+喜	hi3
 矣	rhi3
 已	i4
 以	rhi2
@@ -870,7 +870,7 @@ use_preset_vocabulary: true
 機	gi1
 揮	fui1
 輝	fui1
-希	xi1
+希	hi1
 徽	fui1
 稀	hi1
 依	rhi1
@@ -970,7 +970,7 @@ use_preset_vocabulary: true
 去	ki4
 語	ngi1
 語	ngi1
-許	xi3
+許	hi3
 距	ki3
 巨	ki3
 炬	gi3
@@ -1391,7 +1391,7 @@ use_preset_vocabulary: true
 契	ke4
 契	giet5
 契	siet5
-系	xi3
+系	hi3
 惠	fui4
 慧	fui4
 閉	bi4
@@ -1921,7 +1921,7 @@ use_preset_vocabulary: true
 健	kien4
 蕨	gied5
 月	ngied6
-歇	xied5
+歇	hied5
 粵	rhed6
 曰	rhed5
 越	rhaed5
@@ -2107,7 +2107,7 @@ use_preset_vocabulary: true
 堅	gien1
 牽	kien1
 研	ngien2
-縣	xien4
+縣	hien4
 賢	hien2
 弦	hien2
 玄	hien2
@@ -2119,7 +2119,7 @@ use_preset_vocabulary: true
 編	bien1
 眠	min2
 典	daen3
-顯	xien3
+顯	hien3
 宴	rhen4
 匾	bien3
 唸	ngiam2
@@ -2134,7 +2134,7 @@ use_preset_vocabulary: true
 荐	zien4
 見	gien4
 見	gien4
-現	xien3
+現	hien3
 遍	bien4
 片	paen3
 鐵	taed5
@@ -2424,7 +2424,7 @@ use_preset_vocabulary: true
 俄	ngo2
 鵝	ngo2
 呵	ho4
-靴	xiau1
+靴	hiau1
 何	ho2
 苛	ko1
 荷	ho2
@@ -2785,7 +2785,7 @@ use_preset_vocabulary: true
 上	shong3
 賞	shong3
 仰	ngiong3
-響	xiong3
+響	hiong3
 枉	vong3
 往	gong1
 癢	rhong1
@@ -2807,7 +2807,7 @@ use_preset_vocabulary: true
 壯	zong4
 狀	cong4
 唱	chong3
-向	xiong4
+向	hiong4
 讓	rhong4
 況	kong3
 旺	vong4
@@ -2846,7 +2846,7 @@ use_preset_vocabulary: true
 卿	kin1
 迎	ngiang2
 亨	hen1
-兄	xiung1
+兄	hiung1
 英	rhin1
 瑩	rhin2
 榮	rhung2
@@ -3045,7 +3045,7 @@ use_preset_vocabulary: true
 刑	hin2
 型	hin2
 螢	rhin2
-形	xin2
+形	hin2
 瓶	piang2
 萍	pin2
 冥	min2
@@ -3131,8 +3131,8 @@ use_preset_vocabulary: true
 乘	shin2
 仍	rhin2
 凝	kien2
-興	xin1
-興	xin1
+興	hin1
+興	hin1
 應	en4
 應	en4
 蠅	rhin2
@@ -3192,7 +3192,7 @@ use_preset_vocabulary: true
 丘	kiu1
 邱	kiu1
 牛	ngiu2
-休	xiu1
+休	hiu1
 優	rhiu2
 憂	rhiu2
 尤	rhiu2
@@ -3249,7 +3249,7 @@ use_preset_vocabulary: true
 秀	siu4
 袖	ciu4
 晝	zhiu4
-畜	xiug5
+畜	hiug5
 宙	ciu4
 皺	ziu4
 瘦	seu4
@@ -3500,7 +3500,7 @@ use_preset_vocabulary: true
 拑	kiam2
 鉗	kiam2
 檢	giam3
-險	xiam3
+險	hiam3
 掩	am1
 貶	bien3
 儉	kiam4
@@ -3513,7 +3513,7 @@ use_preset_vocabulary: true
 拈	ngiam1
 兼	giam1
 謙	kiam1
-嫌	xiam2
+嫌	hiam2
 點	daem3
 歉	kiam4
 店	daem4
@@ -3527,7 +3527,7 @@ use_preset_vocabulary: true
 莢	giab5
 挾	giab6
 俠	hiab6
-協	xiab6
+協	hiab6
 耽	dam1
 探	dam1
 貪	tam1
