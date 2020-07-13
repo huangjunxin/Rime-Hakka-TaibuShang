@@ -63,6 +63,7 @@ speller:
     - xform/5/x/                  # 陰入
     - xform/6/w/                  # 陽入
     - xform/^hi/xi/               # 顎化容錯 xi -> hi
+    - derive/^xi/hi/              # 顎化容錯 xi -> hi
     - derive/b$/p/                # 入聲容錯 p -> b
     - derive/bx$/px/              # 入聲容錯 p5 -> b5
     - derive/bw$/pw/              # 入聲容錯 p6 -> b6
